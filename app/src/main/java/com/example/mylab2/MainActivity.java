@@ -4,9 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.Toast;
+
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,11 +30,15 @@ public class MainActivity extends AppCompatActivity {
                 toast.show();
             }
             });
-        mySwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        Snackbar onOff = Snackbar.make(findViewById(R.id.on_off_switch);
+        onOff.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                // do something, the isChecked will be
-                // true if the switch is in the On position
+
             }
-        });
+        }
+public void onCheckChanged(CompoundButton cb, boolean b){
+            mySnackbar.setAction(R.string.undo_string, new MyUndoListener());
+        mySnackbar.show();
     }
 }
