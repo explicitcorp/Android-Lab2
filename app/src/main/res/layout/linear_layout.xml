@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Look at my GUI:"
+            android:text="@string/relLook"
             android:textSize="30dp" />
     </LinearLayout>
 <LinearLayout android:layout_width="wrap_content"
@@ -31,14 +31,14 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Button"
+        android:text="@string/buttonText"
          />
 
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Check this out!"
+            android:text="@string/checkOut"
         />
     </LinearLayout>
 
@@ -57,7 +57,7 @@
         android:id="@+id/on_off_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Switch on/off"
+        android:text="@string/onOffSwitch"
     />
 </LinearLayout>
 <LinearLayout

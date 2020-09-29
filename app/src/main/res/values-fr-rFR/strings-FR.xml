@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My Lab2</string>
-    <string name="Toast">Here is more information</string>
-    <string name="SnackMessageOn">The switch is now on!</string>
-    <string name="SnackMessageOff">The switch is now off!</string>
+    <string name="Toast">Voici plus d\'informations</string>
+    <string name="SnackMessageOn">L\'interrupteur est maintenant activé!</string>
+    <string name="SnackMessageOff">L\'interrupteur est maintenant éteint!</string>
+    <string name="relLook">Regardez mon GUI:</string>
+    <string name="buttonText">Bouton</string>
+    <string name="checkOut">Regarde ça!</string>
+    <string name="onOffSwitch">Allumer / éteindre</string>
 </resources>
