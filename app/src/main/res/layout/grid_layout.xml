@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/GridLayout1"
+    android:id="@+id/GridLayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:columnCount="2"
@@ -15,46 +15,43 @@
         android:layout_width="263dp"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
-        android:layout_weight="1"
         android:text="@string/relLook"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="225dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:text="@string/buttonText" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:text="@string/checkOut" />
 
     <ImageButton
+        android:contentDescription="@string/flag"
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         app:srcCompat="@drawable/flag" />
 
 
-    <Switch
+    <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/on_off_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:text="@string/onOffSwitch" />
 
     <EditText
         android:id="@+id/plain_text_input"
+        android:autofillHints="@string/typeHere"
         android:layout_width="355dp"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
-        android:hint="Type Here"
-        android:inputType="textPersonName" />
+        android:hint="@string/typeHere"
+        android:inputType="textCapWords" />
 
 
 </GridLayout>

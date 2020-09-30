@@ -1,6 +1,7 @@
 package com.example.mylab2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.relative_layout);
+        setContentView(R.layout.grid_layout);
         final Button button = findViewById(R.id.button);
         button.setOnClickListener(v -> {
             Context context = getApplicationContext();
@@ -29,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
         });
 
-       Switch onOff = (Switch) findViewById(R.id.on_off_switch);
-        final Snackbar snackOn = Snackbar.make(findViewById(R.id.linLay),R.string.SnackMessageOn , BaseTransientBottomBar.LENGTH_INDEFINITE);
-        final Snackbar snackOff = Snackbar.make(findViewById(R.id.linLay),R.string.SnackMessageOff , BaseTransientBottomBar.LENGTH_INDEFINITE);
+       SwitchCompat onOff = (SwitchCompat) findViewById(R.id.on_off_switch);
+        final Snackbar snackOn = Snackbar.make(findViewById(R.id.GridLayout),R.string.SnackMessageOn , BaseTransientBottomBar.LENGTH_INDEFINITE);
+        final Snackbar snackOff = Snackbar.make(findViewById(R.id.GridLayout),R.string.SnackMessageOff , BaseTransientBottomBar.LENGTH_INDEFINITE);
         onOff.setOnCheckedChangeListener((cb, b) -> {
             snackOn.setAction( "Undo", click -> cb.setChecked(!b));
             snackOff.setAction( "Undo", click -> cb.setChecked(!b));

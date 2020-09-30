@@ -8,4 +8,6 @@
     <string name="buttonText">Bouton</string>
     <string name="checkOut">Regarde ça!</string>
     <string name="onOffSwitch">Allumer / éteindre</string>
+    <string name="typeHere">Le Type Here</string>
+    <string name="flag">Flag</string>
 </resources>
