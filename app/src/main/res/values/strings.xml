@@ -7,4 +7,5 @@
     <string name="buttonText">Button</string>
     <string name="checkOut">Check this out!</string>
     <string name="onOffSwitch">Switch On/Off</string>
+<string name="typeHere">Type Here</string>
 </resources>
