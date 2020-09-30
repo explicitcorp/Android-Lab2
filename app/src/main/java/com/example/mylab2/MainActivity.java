@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.grid_layout);
-        final Button button = findViewById(R.id.button);
+        Button button = findViewById(R.id.button);
         button.setOnClickListener(v -> {
             Context context = getApplicationContext();
-            CharSequence text = getResources().getString(R.string.Toast);
+            CharSequence text = "Here is more information";
             int duration = Toast.LENGTH_LONG;
 
             Toast toast = Toast.makeText(context, text, duration);
