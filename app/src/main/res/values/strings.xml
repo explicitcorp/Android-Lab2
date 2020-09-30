@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">My Lab2</string>
-    <string name="Toast">Here is more information</string>
-    <string name="SnackMessageOn">The switch is now on!</string>
-    <string name="SnackMessageOff">The switch is now off!</string>
-    <string name="relLook">Look at my GUI:</string>
-    <string name="buttonText">Button</string>
-    <string name="checkOut">Check this out!</string>
-    <string name="onOffSwitch">Switch On/Off</string>
+<string name="app_name">My Lab2</string>
+<string name="Toast">Here is more information</string>
+<string name="SnackMessageOn">The switch is now on!</string>
+<string name="SnackMessageOff">The switch is now off!</string>
+<string name="relLook">Look at my GUI:</string>
+<string name="buttonText">Button</string>
+<string name="checkOut">Check this out!</string>
+<string name="onOffSwitch">Switch On/Off</string>
+    <string name="typeHere">Type Here</string>
 </resources>
